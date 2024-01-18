@@ -1,0 +1,139 @@
+.flex-1 {
+    flex: 1;
+}
+
+
+.max-h-full {
+  max-height: 100%;
+}	
+.max-h-screen {
+  max-height: 100vh;
+}	
+.max-h-svh {
+  max-height: 100svh;
+}	
+.max-h-lvh {
+  max-height: 100lvh;
+}	
+.max-h-dvh {
+  max-height: 100dvh;
+}	
+.max-h-min {
+  max-height: min-content;
+}	
+.max-h-max {
+  max-height: max-content;
+}	
+.max-h-fit {
+  max-height: fit-content;
+}	
+.max-w-max {
+  max-width: max-content;
+}	
+.max-w-fit {
+  max-width: fit-content;
+}	
+.max-w-prose {
+  max-width: 65ch;
+}	
+.max-w-screen-sm {
+  max-width: 640px;
+}	
+.max-w-screen-md {
+  max-width: 768px;
+}	
+.max-w-screen-lg {
+  max-width: 1024px;
+}	
+.max-w-screen-xl {
+  max-width: 1280px;
+}	
+.max-w-screen-2xl {
+  max-width: 1536px;
+}	
+
+.place-items-center {
+  place-items: center;
+}
+
+.mt-auto {
+  margin-top: auto;
+}	
+.mr-auto {
+  margin-right: auto;
+}	
+.mb-auto {
+  margin-bottom: auto;
+}	
+.ml-auto {
+  margin-left: auto; 
+}	
+
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.inset-0 {
+  inset: 0px;
+}	
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}	
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}	
+
+.cursor-pointer {
+  cursor: pointer;
+}	
+.cursor-none {
+  cursor: none;
+}	
+
+
+/* background propertyes */
+
+.bg-auto {
+  background-size: auto;
+}	
+.bg-cover {
+  background-size: cover;
+}	
+.bg-contain {
+  background-size: contain;
+}	
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}	
+
+.bg-bottom {
+  background-position: bottom;
+}	
+.bg-center {
+  background-position: center;
+}	
+.bg-left {
+  background-position: left;
+}	
+.bg-left-bottom {
+  background-position: left bottom;
+}b
+.bg-left-top {
+  background-position: left top;
+}	
+.bg-right {
+  background-position: right;
+}	
+.bg-right-bottom {
+  background-position: right bottom;
+}	
+.bg-right-top {
+  background-position: right top;
+}	
+.bg-top {
+  background-position: top;
+}	
