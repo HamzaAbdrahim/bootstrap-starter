@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>bootstrap starter file Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/commen.css">
+    <link rel="stylesheet" href="./assets/css/helpers.css">
+
+    <!-- Additional responsive CSS Files -->
+    <link rel="stylesheet" href="./assets/css/media/mobile.css">
+    <link rel="stylesheet" href="./assets/css/media/desktop.css">
+    <link rel="stylesheet" href="./assets/css/media/large.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+  </head>
+
+  <body>
+    <header>
+      <!-- start top navbar -->
+      <div class="top-navbar py-3 md-py-0 cenetr-grid">
+        <div class="container-lg justify-content-center flex-column gap-3 flex-md-row d-flex align-items-center">
+          <div class="d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start align-items-center gap-3 flex-1">
+            <a href="#" class="d-flex Select-Country align-items-center gap-1">
+              <i class="bi bi-geo-alt-fill"></i>
+              Select Country</a>
+              <a href="my-account.html" class="d-flex align-items-center gap-1">
+                <i class="bi bi-person-fill-lock"></i>
+                Stockist Area
+              </a>
+          </div>
+          <div class="position-relative flex-1 order-3 order-md-2">
+            <input type="text" placeholder="Recherche" class="input-search">
+            <i class="bi bi-search position-absolute top-50 translate-middle-y" 
+            style="left:calc(2rem / 2); font-size: 1rem;"></i>
+        </div>
+          <div class="d-flex flex-wrap flex-md-nowrap align-items-center order-2 order-md-3 gap-4 flex-1 justify-content-center justify-content-md-end">
+            <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
+            <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="#"><i class="bi bi-pinterest"></i></i></a>
+            <a target="_blank" href="#"><i class="bi bi-tiktok"></i></i></a>
+            <a target="_blank" href="#"><i class="bi bi-youtube"></i></i></a>
+          </div>
+        </div>
+    
+      </div>
+      <nav class="container-xl my-4 d-flex position-relative justify-content-between justify-content-lg-end align-items-center"
+       style="height: 10vh;">
+       <div class="gap-3 d-lg-block d-flex align-items-center logo-container" l style="width: 17%;">
+         <button id="mobile-menu" class="d-lg-none">
+          <img src="./assets/images/menu.svg" class="mobile-menu" alt="">
+         </button>
+          <a href="index.html">
+            <img src="./assets/images/WoodUbend_logo.png" class="website-logo " style="height: 2rem;" alt="site-logo">
+          </a>
+       </div>
+     <ul class="navlinks d-lg-flex flex-1 align-items-center gap-2 gap-xl-3">
+          <li class="navlink shope-link d-flex align-items-center gap-2"><a href="#">
+            shope
+            <svg style="height: 1rem;" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+          </a></li>
+          <li class="navlink"><a href="about.html">about</a></li>
+          <li class="navlink"><a href="how-to.html">how-to</a></li>
+          <li class="navlink"><a href="fqo.html">FQO</a></li>
+          <li class="navlink"><a href="gallery.html">gallery</a></li>
+          <li class="navlink"><a href="blog.html">blog</a></li>
+          <li class="navlink"><a href="find-a-stockist.html">find-stock</a></li>
+          <li class="navlink text-decoration-underline fw-bold blode"><a href="becomeastockist.html">become a stockist</a></li>
+          <div class="position-relative">
+            <li class="navlink d-flex align-items-center gap-2 policie-link"><a href="#">
+              policies
+              <svg style="height: 1rem;" class="e-font-icon-svg policie-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+            </a></li>
+             <div class="position-absolute z-2 policie-tooltip p-3  d-grid gap-2" >
+              <a class="policie-link" href="shipping-policy.html">
+                Shipping Policy
+                </a>
+                <a class="policie-link" href="returns-policy.html">
+                  Returns Policy
+                  </a>
+                  <a class="policie-link" href="breakages-policy.html">
+                    Breakages Policy
+                    </a>
+                    <a class="policie-link" href="payment-policy.html">
+                      Payment Policy
+                      </a>
+            </div>
+          </div>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <a href="my-account.html"><i class="bi bi-person-fill" style="font-size: 1.5rem;"></i></a>
+          <a href="#" ><i class="bi bi-lock-fill" style="font-size: 1.5rem;"></i></a>
+        </div>
+        <div class="position-absolute big-tool-tip  left-0 py-3 px-3 w-100" >
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <h3 class="tooltip-titel">WoodUbend</h3>
+              <ul class="d-grid mt-3">
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 d-grid gap-3 col-lg-4">
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 d-flex flex-column gap-3">
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div style="z-index: 10;" class="cart position-fixed top-0 right-0 cenetr-grid w-25 min-vh-100 bg-white p-3">
+      <div class="row" style="margin-top: 3rem;">
+        <div class="col-lg-4">
+          <img src="./assets/images/XmasSet-2-300x300.jpeg" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-lg-8">
+          <p class="product-name" style="font-size: 1rem;">WoodUbend Christmas Set 2</p>
+          <div class="d-flex align-items-center">
+            <p class="product-subtitel flex-1" style="color: rgb(184, 184, 184);font-size: 1rem;">2 × £17.99</p>
+            <button>
+              <i class="bi bi-x-circle" style="font-size: 1.5rem;"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-3">
+      <div class="py-4 text-center">
+        <p style="font-size: 1rem;"> 
+          <strong>
+            Subtotal: £35.98
+          </strong>
+        </p>
+      </div>
+      <hr class="my-3">
+      <div class="row gap-2">
+        <a href="basket.html" type="button" class="col-12 text-center cart-button rounded-3">View basket</a>
+        <a href="checkout.html" type="button" class="col-12 text-center cart-button rounded-3">Checkout</a>
+      </div>
+      <i id="close-cart" class="bi bi-x-lg position-absolute" 
+      style="top: 1rem; right: 1.5rem; font-size:clamp(1.5rem ,4vw ,2.5rem ); color: #657A97;" ></i>
+    </div>
+      </nav>
+      <!-- start end navbar -->
+    </header>
+<!-- start hero section  -->
+<div
+  class="bg-image text-center shadow-1-strong rounded cenetr-grid text-white bg-no-repeat bg-cover"
+  style="background-image: url('./assets/images/Home1right_web.webp'); height: 67vh;"
+>
+<div>
+    <h1 style="    color: #ffffff;
+    font-size: 2.5rem;
+    line-height: 1.5em;">Become a WoodUbend Stockist</h1>
+    <p>&</p>
+    <h2 style="color: #ffffff;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5em;">join our creative team</h2>
+</div>
+</div>
+<!-- end hero section  -->
+
+<!-- start main section  -->
+<div class="min-vh-100 d-flex align-items-center container">
+    <div>
+        <h3 class="stack-titel mb-3">Why become a WoodUbend stockist?</h3>
+        <ul class="stack-container list-unstyled d-grid gap-3 mb-3">
+            <li>You can expect a 80-100% return on your initial investment</li>
+            <li>Bespoke marketing support and advice
+            </li>
+            <li>Products arrive ready to sell</li>
+            <li>A helpful and supportive team will support you every step of the way</li>
+            <li>Access to hundreds of on trend designs of the innovative heat bendable decorative wood mouldings
+            </li>
+            <li>As a WoodUbend stockist, you gain access to all of 
+                the popular Posh Chalk products including decoupage, stencils and pigments</li>
+            <li>New product lines are added at least twice a year</li>
+            <li>Our 400+ global network of stockists are warm, open and friendly
+            </li>
+        </ul>
+        <div class="w-100 text-center">
+            <a href="#" class="text-decoration-underline mt-4">
+               <strong>
+                   Just fill out the form below and take your first step on the journey 
+                   to joining our WoodUbend family 
+                </strong> 
+            </a>
+        </div>
+    </div>
+
+</div>
+<!-- end main section  -->
+
+<!-- start form section  -->
+<div class="min-vh-100 cenetr-grid container">
+    <form action="" method="post">
+        <div class="left-content gap-3 gap-lg-0 row">
+            <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >First Name
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="hamza">
+              </div>
+              <div class="form-group col-lg-6 mb-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Last Name 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >Email 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="hamza">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Confirm Email  
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-12 my-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Business name 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Shop/Booth location 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    City 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    State 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-4 my-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Zipcode 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-4 my-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                   
+Country 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-4 my-lg-3">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Phone number 
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >
+                    Website
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >
+What products do you currently stock?
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="name@example.com">
+              </div>
+              <div class="col-12">
+                <h4>What type of premises do you have?
+                    Shop</h4>
+                <div class="form-check">
+                    <input class="form-check-input not-red" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Shop
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input not-red" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Concession
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input not-red" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Other places
+                    </label>
+                  </div>
+              </div>
+              <div class="form-group my-3 d-grid gap-2">
+                <label for="exampleFormControlInput1" class="mb-2" >Tell us about your business?
+                </label>
+                <textarea name="message" class="the-message" id="" placeholder="Tell us about your business?"></textarea>
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >How did you hear about us?
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="How did you hear about us?">
+              </div>
+              <div class="form-group col-lg-6">
+                <label for="exampleFormControlInput1" class="mb-2" >Referral code
+                </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                 placeholder="Referral code">
+              </div>
+              <button type="submit" class="submit-button mt-3">sand</button>
+        </div>
+    </form>
+
+</div>
+<!-- end form section  -->
+
+
+<!-- shoping from section -->
+<div class="bg-shadow" hidden>
+  <div class="loction-box row">
+      <div class="col-md-8 col-lg-9 order-2 order-md-1 d-grid gap-3 p-1 py-md-3 px-md-5">
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center gap-4">
+          <img src="./assets/images/logo_SollyJo.svg" class="img-popup" alt="">
+          <h2 class="box-blue-titel">Hello creative people & WoodUbend lovers! </h2>
+        </div>
+        <div class="loction-note d-flex align-items-center gap-4">
+          <i class="bi bi-geo-alt-fill"></i>
+          <h2>Where are you shopping from?   </h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Australia
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Belgium
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">DUTCH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Bulgaria
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">БЪЛГАРСКИ</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Canada
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Australia
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Belgium
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">DUTCH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Bulgaria
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">БЪЛГАРСКИ</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Canada
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Australia
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Belgium
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">DUTCH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Bulgaria
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">БЪЛГАРСКИ</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div>
+            <div class="chose-lang-section">
+              <a href="#" class="text-center mb-2" >
+                Canada
+              </a>
+              <ul>
+                <li class="text-capitalize text-center fw-normal"><a href="#">ENGLISH</a></li>
+                <li class="text-capitalize text-center fw-normal"><a href="#">FRANÇAIS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between gap-2">
+            <div class="col-8 loction-note d-flex align-items-center gap-4">
+              <i class="bi bi-geo-alt-fill"></i>
+              <h2>Are you outside these countries?</h2>
+            </div>
+            <button class="loction-button w-100">Visit International</button>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-4 col-lg-3 order-1 order-md-2 loction-popup-img">
+        <img src="./assets/images/SelectRegion_wub2_web (1).webp" class="object-fit-cover w-100 h-100" alt="">
+      </div>
+    </div>
+    <i id="close" class="bi bi-x-lg position-absolute" 
+    style="top: 1rem; right: 1.5rem; font-size:clamp(1.5rem ,4vw ,2.5rem ); color: #657A97;" ></i>
+
+</div>
+<!-- start footer section  -->
+<footer style="min-height:90vh;" class="py-4 mt-4">
+  <div class="d-grid  justify-content-around">
+    <div class="container row h-100  justify-content-center d-flex align-items-start gap-4 gap-sm-0">
+      <ul class="col-lg-3 col-sm-6">
+        <h3 class="footer-titel">About</h3>
+        <p class="footer-discrption">We are a fast growing company with a global network of stockists, 
+          distributors and ambassadors. Our manufacturing plants are in central Europe with  
+          headquarters in the UK.</p>
+      </ul>
+      <ul class="d-grid gap-3 col-lg-3 col-sm-6">
+        <h3 class="footer-titel">Global HQ</h3>
+        <li class="footer-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+        <li class="footer-link"><a href="#">Leeds, </a></li>
+        <li class="footer-link"><a href="#">West Yorks, </a></li>
+        <li class="footer-link"><a href="#">LS12 2PR</a></li>
+        <li class="footer-link"><a href="#">United Kingdom</a></li>
+      </ul>
+      <ul class="d-grid gap-3 col-lg-3 col-sm-6 mt-4 mt-md-0">
+        <h3 class="footer-titel">Site Links</h3>
+        <li class="footer-link"><a href="#">How-To</a></li>
+        <li class="footer-link"><a href="#">FAQ</a></li>
+        <li class="footer-link"><a href="#">      Returns Policy
+  </a></li>
+        <li class="footer-link"><a href="#">      
+  
+  Breakages Policy
+  </a></li>
+        <li class="footer-link"><a href="#">      
+  
+  Payment Policy
+  </a></li>
+        <li class="footer-link"><a href="#">
+  Shipping Policy
+  </a></li>
+        <li class="footer-link"><a href="#">
+  
+  Affiliate Are</a></li>
+        <li class="footer-link"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+        <h3 class="footer-titel mb-3">Social Links</h3>
+        <div class="d-flex flex-wrap flex-md-nowrap align-items-center gap-4 flex-1">
+          <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
+          <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
+          <a target="_blank" href="#"><i class="bi bi-pinterest"></i></i></a>
+          <a target="_blank" href="#"><i class="bi bi-tiktok"></i></i></a>
+          <a target="_blank" href="#"><i class="bi bi-youtube"></i></i></a>
+        </div>
+        <p class="footer-link-last-section" style="margin-top: 3rem;">Unsure how to use WoodUbend?
+          Download our free guide <a href="#" class="text-decoration-underline">here</a>.</p>
+      </div>
+    </div>
+    <div class="w-100 text-center h-25 d-flex justify-content-center align-items-center mt-5">
+      <a href="#" class="footer-bottom-link">© Copyright 2024 – WoodUbend</a>
+    </div>
+  </div>
+</footer>
+<!-- end footer section  -->
+
+
+
+
+
+
+<script type="module" src="./assets/js/script.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

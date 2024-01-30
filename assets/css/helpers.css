@@ -2,37 +2,18 @@
     flex: 1;
 }
 
-
+.h-screen {
+  height: 100vh;
+  height: 100dvh;
+  height: 100svh;
+}
 .max-h-full {
   max-height: 100%;
 }	
 .max-h-screen {
   max-height: 100vh;
 }	
-.max-h-svh {
-  max-height: 100svh;
-}	
-.max-h-lvh {
-  max-height: 100lvh;
-}	
-.max-h-dvh {
-  max-height: 100dvh;
-}	
-.max-h-min {
-  max-height: min-content;
-}	
-.max-h-max {
-  max-height: max-content;
-}	
-.max-h-fit {
-  max-height: fit-content;
-}	
-.max-w-max {
-  max-width: max-content;
-}	
-.max-w-fit {
-  max-width: fit-content;
-}	
+ 
 .max-w-prose {
   max-width: 65ch;
 }	
@@ -52,6 +33,10 @@
   max-width: 1536px;
 }	
 
+.cenetr-grid {
+  display: grid;
+  place-items: center;
+}
 .place-items-center {
   place-items: center;
 }

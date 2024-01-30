@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>bootstrap starter file Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/commen.css">
+    <link rel="stylesheet" href="./assets/css/helpers.css">
+
+    <!-- Additional responsive CSS Files -->
+    <link rel="stylesheet" href="./assets/css/media/mobile.css">
+    <link rel="stylesheet" href="./assets/css/media/desktop.css">
+    <link rel="stylesheet" href="./assets/css/media/large.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <header>
+      <!-- start top navbar -->
+      <div class="top-navbar py-3 md-py-0 cenetr-grid">
+        <div class="container-lg justify-content-center flex-column gap-3 flex-md-row d-flex align-items-center">
+          <div class="d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start align-items-center gap-3 flex-1">
+            <a href="#" class="d-flex Select-Country align-items-center gap-1">
+              <i class="bi bi-geo-alt-fill"></i>
+              Select Country</a>
+              <a href="my-account.html" class="d-flex align-items-center gap-1">
+                <i class="bi bi-person-fill-lock"></i>
+                Stockist Area
+              </a>
+          </div>
+          <div class="position-relative flex-1 order-3 order-lg-2">
+            <input type="text" placeholder="Recherche" class="input-search">
+            <i class="bi bi-search position-absolute top-50 translate-middle-y" 
+            style="left:calc(2rem / 2); font-size: 1rem;"></i>
+        </div>
+          <div class="d-flex flex-wrap flex-md-nowrap align-items-center order-2 order-md-3 gap-4 flex-1 justify-content-center justify-content-md-end">
+            <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
+            <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="#"><i class="bi bi-pinterest"></i></i></a>
+            <a target="_blank" href="#"><i class="bi bi-tiktok"></i></i></a>
+            <a target="_blank" href="#"><i class="bi bi-youtube"></i></i></a>
+          </div>
+        </div>
+    
+      </div>
+      <nav class="container-xl my-4 d-flex position-relative justify-content-between justify-content-lg-end align-items-center"
+       style="height: 10vh;">
+       <div class="gap-3 d-lg-block d-flex align-items-center logo-container" l style="width: 17%;">
+         <button id="mobile-menu" class="d-lg-none">
+          <img src="./assets/images/menu.svg" class="mobile-menu" alt="">
+         </button>
+          <a href="index.html">
+            <img src="./assets/images/WoodUbend_logo.png" class="website-logo " style="height: 2rem;" alt="site-logo">
+          </a>
+       </div>
+        <ul class="navlinks d-lg-flex flex-1 align-items-center gap-2 gap-xl-3">
+          <li class="navlink shope-link d-flex align-items-center gap-2"><a href="#">
+            shope
+            <svg style="height: 1rem;" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+          </a></li>
+          <li class="navlink"><a href="about.html">about</a></li>
+          <li class="navlink"><a href="how-to.html">how-to</a></li>
+          <li class="navlink"><a href="fqo.html">FQO</a></li>
+          <li class="navlink"><a href="product-category.html">gallery</a></li>
+          <li class="navlink"><a href="blog.html">blog</a></li>
+          <li class="navlink"><a href="my-account.html">find-stock</a></li>
+          <li class="navlink text-decoration-underline fw-bold blode"><a href="becomeastockist.html">become a stockist</a></li>
+          <div class="position-relative">
+            <li class="navlink d-flex align-items-center gap-2 policie-link"><a href="#">
+              policies
+              <svg style="height: 1rem;" class="e-font-icon-svg policie-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+            </a></li>
+             <div class="position-absolute z-2 policie-tooltip p-3  d-grid gap-2" >
+              <a class="policie-link" href="shipping-policy.html">
+                Shipping Policy
+                </a>
+                <a class="policie-link" href="returns-policy.html">
+                  Returns Policy
+                  </a>
+                  <a class="policie-link" href="breakages-policy.html">
+                    Breakages Policy
+                    </a>
+                    <a class="policie-link" href="payment-policy.html">
+                      Payment Policy
+                      </a>
+            </div>
+          </div>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <a href="my-account.html"><i class="bi bi-person-fill" style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;"></i></a>
+          <a href="#" ><i class="bi bi-lock-fill" style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;"></i></a>
+        </div>
+        <div class="position-absolute big-tool-tip  left-0 py-3 px-3 w-100" >
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <h3 class="tooltip-titel">WoodUbend</h3>
+              <ul class="d-grid mt-3">
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+                <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                <li class="tooltip-link"><a href="#">United Kingdom</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 d-grid gap-3 col-lg-4">
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 d-flex flex-column gap-3">
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="tooltip-titel">WoodUbend</h3>
+                <ul class="d-grid mt-3">
+                  <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+                  <li class="tooltip-link"><a href="#">Leeds, </a></li>
+                  <li class="tooltip-link"><a href="#">West Yorks, </a></li>
+                  <li class="tooltip-link"><a href="#">LS12 2PR</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="z-index: 10;" class="cart position-fixed top-0 right-0 cenetr-grid w-25 min-vh-100 bg-white p-3">
+          <div class="row" style="margin-top: 3rem;">
+            <div class="col-lg-4">
+              <img src="./assets/images/XmasSet-2-300x300.jpeg" class="w-100 h-100" alt="">
+            </div>
+            <div class="col-lg-8">
+              <p class="product-name" style="font-size: 1rem;">WoodUbend Christmas Set 2</p>
+              <div class="d-flex align-items-center">
+                <p class="product-subtitel flex-1" style="color: rgb(184, 184, 184);font-size: 1rem;">2 × £17.99</p>
+                <button>
+                  <i class="bi bi-x-circle" style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr class="mt-3">
+          <div class="py-4 text-center">
+            <p style="font-size: 1rem;"> 
+              <strong>
+                Subtotal: £35.98
+              </strong>
+            </p>
+          </div>
+          <hr class="my-3">
+          <div class="d-flex align-items-center gap-2 ">
+            <div class="flex-1">
+              <a href="#" type="button" class="flex-1 cart-button">View basket</a>
+            </div>
+            <div class="flex-1">
+              <a href="#" type="button" class="flex-1 cart-button">Checkout</a>
+            </div>
+          </div>
+          <i id="close-cart" class="bi bi-x-lg position-absolute" 
+          style="top: 1rem; right: 1.5rem; font-size:clamp(1.5rem ,4vw ,2.5rem ); color: #657A97;" ></i>
+        </div>
+      </nav>
+      <!-- start end navbar -->
+    </header>
+
+<div>
+  <div style="background-image: url('./assets/images/DSC00930-scaled.jpeg');height: 17rem;" class="box-titel-section 
+   bg-right position-relative">
+      <h3>How-To
+    </h3>
+      <svg style="transform: rotate(-1deg);
+      height: 8rem;
+      bottom: -1rem;" class="position-absolute  w-100 left-0 z-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"> 
+        <path class="elementor-shape-fill" d="M615.2,96.7C240.2,97.8,0,18.9,0,0v100h1000V0C1000,19.2,989.8,96,615.2,96.7z" fill="white"></path>
+      </svg>
+  </div>
+</div>
+
+<div class="min-vh-100 my-5 cenetr-grid">
+    <div class="container">
+        <h3 class="text-center fw-bold">How do you use WoodUbend Moulding</h3>
+        <p class="subtitel-section text-center mb-3">Download our free guide
+          <a href="#" class=" text-decoration-underline"> here.</a></p>
+          <!-- start titel section  -->
+          <div class="d-lg-flex d-grid my-3 align-items-center">
+            <p class="fw-bold overflow-hidden" 
+            style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+            <h3  style="width: 30%; font-size: 1.2rem; font-weight: 600;" 
+            class="text-center  how-tite mb-0">APPLYING A WOODUBEND MOULDING</h3>
+            <p class="fw-bold overflow-hidden" 
+            style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          </div>
+          <!-- start titel section  -->
+
+          <div class="row mt-4 gap-3 gap-lg-0">
+            <div class="col-lg-6 order-2 order-md-1">
+              <p class="mb-3 fw-bold">WoodUbend mouldings are perfect for quickly and easily 
+                enhancing your upcycled furniture and craft projects. All 
+                you need is a heat source, some good quality wood glue and a
+                 surface to stick your WoodUbend to:</p>
+                 <ul class="d-grid gap-3">
+                  <li>– Heat the moulding with a heat gun , hair dryer or on a griddle.
+                  </li>
+                  <li>– Apply glue to the surface or the entire back of the moulding.
+                  </li>
+                  <li>– Press onto surface firmly.
+                  </li>
+                  <li>– Heat once more.
+                  </li>
+                  <li> – Enjoy!
+                  </li>
+                  <li>– Heat the moulding with a heat gun , hair dryer or on a griddle.
+                  </li>
+                 </ul>
+            </div>
+            <div class="col-lg-6 youtube-fream order-1 order-lg-2">
+              <div class=" w-100 h-100">
+                <iframe class="embed-responsive-item img-fluid h-100 w-100"  src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="min-vh-100 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem); width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style=" font-size: 1.2rem; font-weight: 600; width: 35%;" 
+          class="text-center  how-tite mb-0">REMOVING A WOODUBEND MOULDING</h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem);width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="https://www.youtube.com/watch?v=oLbD8cOF6Rc"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="mb-3 fw-bold">
+              Once properly adhered the WoodUbend mouldings will stay in firmly
+               in place for decades. We understand that accidents happen though, 
+               so we’ve made it easy for the wood mouldings to be removed and replaced:
+            </p>
+            
+
+
+
+
+
+
+               <ul class="d-grid gap-3">
+                <li>– Heat the moulding with a heat gun , hair dryer or on a griddle.
+                </li>
+                <li>– Slide something thin like a spatular or knife under the moulding
+                </li>
+                <li>– Prise the now flexible wood moulding off of the surface. 
+                </li>
+                <li>– Now the WoodUbend moulding is ready to be reapplied elsewhere.
+                </li>
+                <li> – Enjoy!
+                </li>
+                <li>You may pull some paint off of the surface so make sure you have
+                   some touch up paint handy!
+                </li>
+               </ul>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 my-5 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 40%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="width: 20%; font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">USING WOODUBEND TRIMS </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 40%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6">
+            <p class="mb-3 fw-bold">
+              All WoodUbend trims are 2.1m long and can be used to uplift all of your creative projects. The flexible wood trims are equally effective when used in place as a dado rail or to embellish a crown moulding or coving. Some top tips to remember:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Don’t unroll the trims before heating them first.
+                </li>
+                <li> – Keep them coiled up & unroll only what you need.
+                </li>
+                <li>– If you cut them short, don’t worry, they will stretch by up to 10%.
+                </li>
+                <li>– You can cool them and reheat them as much as you like.
+                </li>
+               </ul>
+          </div>
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">FIX A BROKEN MOULDING </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="mb-3 fw-bold">
+              Accidents happen! Luckily, WoodUbend decorative mouldings are really easy to fix. All you need is a heat gun and some wood glue:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Heat both bits of the moulding
+                </li>
+                <li>– Apply wood glue to both broken ends
+                </li>
+                <li>– Press both bits together
+                </li>
+                <li>– Remove excess glue
+                </li>
+                <li>– Hold together until cool or the two parts of the decorative moulding are no longer coming apart.
+                </li>
+                <li>You may pull some paint off of the surface so make sure you have
+                   some touch up paint handy!
+                </li>
+               </ul>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 my-5 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 40%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="width: 20%; font-size: 1.2rem; font-weight: 600;" 
+          class="text-center  how-tite mb-0">APPLYING WOODUBEND TO VARIOUS SURFACES</h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 40%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        
+        
+        
+        
+        
+        
+        
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6">
+            <p class="mb-3 fw-bold">
+              One of the fantastic things about WoodUbend decorative mouldings is that you can adhere them to just about any surface from wood to fruit and vegetables and just about everything else in between! All you have to do is follow the basic steps:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Heat the moulding
+                </li>
+                <li>– Apply a good quality wood glue to the back of the moulding or directly onto the surface
+                </li>
+                <li>– Press the bendable wood moulding onto the surface
+                </li>
+                <li>– Heat once more & remove excess glue
+                </li>
+               </ul>
+          </div>
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">STRETCHING WOODUBEND TRIM</h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="mb-3 fw-bold">
+              If you cut your WoodUbend decorative trim a little short, don’t worry! There’s an easy solution which will have you back on track in no time:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Reheat before gluing or whilst the glue is still wet
+                </li>
+                <li>– Apply glue to both ends of the trim
+                </li>
+                <li>– Stretch the trim and push both ends together
+                </li>
+                <li>– Hold until cool
+                </li>
+                <li>– WoodUbend decorative mouldings have stretch up to around 10%
+                </li>
+                <li>You may pull some paint off of the surface so make sure you have
+                   some touch up paint handy!
+                </li>
+               </ul>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 my-5 cenetr-grid">
+  <div class="container row">
+      <h3 class="text-center fw-bold">How Do You Use Posh Chalk Pigments?      </h3>
+        <!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">MIXING POSH CHALK PIGMENTS
+        </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 order-2 order-md-1">
+            <p class="mb-3 fw-bold"> 
+        Posh Chalk Pigments come in a variety of lustrous colours and can be mixed with paint, resin and top coat sealers. For best results, use the Posh Chalk Pigments Infusor:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Add your pigments first, then add the infusor bit by bit
+                </li>
+                <li>– Thoroughly mix with a stirrer or paint brush
+                </li>
+                <li>– If you make too much, store in an airtight container
+                </li>
+                <li>– Suitable for outdoor use when mixed with the Posh Chalk Infusor.
+                </li>
+               </ul>
+          </div>
+          <div class="col-lg-6 youtube-fream order-1 order-lg-2">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100"  src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 cenetr-grid">
+  <div class="container">
+<!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">FIX A BROKEN MOULDING </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 youtube-fream">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100" 
+               src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            
+            <p class="mb-3 fw-bold">
+Posh Chalk Pigments are ideal for use on just about any surface including wood, metal, glass and even fabric! If you’re using Posh Chalk Pigments on fabric, it really couldn’t be simpler:
+            </p>
+            
+               <ul class="d-grid gap-3">
+                <li> – Mix your Posh Chalk Pigments as you would normally
+                </li>
+                <li> – A thicker consistency is better for use on fabric
+                </li>
+                <li> – If the fabric is a loose weave it may be an idea to use a chalk, acryllic or fabric paint as a base.
+                </li>
+                <li> – Apply Posh Chalk Pigments as desired with a brush or roller
+                </li>
+               </ul>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 my-5 cenetr-grid">
+  <div class="container row">
+      <h3 class="text-center fw-bold">How Do You Use Posh Chalk Pastes?
+      </h3>
+        <!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">POPPING THE POSH CHALK PASTES
+        </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 order-2 order-md-1">
+            <p class="mb-3 fw-bold"> 
+              Posh Chalk Pastes are incredibly versatile, they can be mixed to create other colours, used to create texture or watered down into a wash. Once of the more innovative uses of these water-based pastes is popping them to create a raised eggshell like effect. Here’s how:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Whilst the paste is still wet apply heat from a heat gun.
+                </li>
+                <li>– Keep the heat source moving so as not to burn the paste
+                </li>
+                <li>– The paste should begin to rise
+                </li>
+                <li>– Leave to cool
+                </li>
+                <li>
+          This works with both the Smooth Metallic & Textured Pastes.
+        </li>
+               </ul>
+          </div>
+          <div class="col-lg-6 youtube-fream order-1 order-lg-2">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100"  src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="min-vh-100 my-5 cenetr-grid">
+  <div class="container row">
+      <h3 class="text-center fw-bold">How Do You Use Posh Chalk Stencils?
+      </h3>
+        <!-- start titel section  -->
+        <div class="d-lg-flex d-grid my-3 align-items-center">
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+          <h3  style="font-size: 1.2rem; font-weight: 600;" 
+          class="text-center how-tite mb-0">CREATING RAISED STENCILLING
+        </h3>
+          <p class="fw-bold overflow-hidden" 
+          style="font-size:clamp(.5rem , 4vw  , 1.5rem) ;width: 35%;">
+          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+        </div>
+        <!-- start titel section  -->
+        <div class="row mt-4 gap-3 gap-lg-0">
+          <div class="col-lg-6 youtube-fream order-1 order-lg-2">
+            <div class=" w-100 h-100">
+              <iframe class="embed-responsive-item img-fluid h-100 w-100"  src="//www.youtube.com/embed/zB4I68XVPzQ"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6 order-2 order-md-1">
+            <p class="mb-3 fw-bold"> 
+              The Posh Chalk Pastes and Posh Chalk Stencils work perfectly together for those of you in search of raised stencilling. Give it a go yourself:
+            </p>
+               <ul class="d-grid gap-3">
+                <li>– Ensure both the stencil and surface are dry
+                </li>
+                <li>– Secure stencil with spray adhesive or low tack tape
+                </li>
+                <li>– Apply Posh Chalk Paste with a palette knife or squeegee.
+                </li>
+                <li>– It should be applied thick enough to just see the stencil pattern through the paste
+                </li>
+                <li>– Remove stencil and pop paste or leave to dry as is
+        </li>
+               </ul>
+          </div>
+        </div>
+  </div>
+</div>
+<!-- start footer section  -->
+<footer style="min-height:90vh;" class="py-4 mt-4">
+  <div class="d-grid  justify-content-around">
+    <div class="container row h-100  justify-content-center d-flex align-items-start gap-4 gap-sm-0">
+      <ul class="col-lg-3 col-sm-6">
+        <h3 class="footer-titel">About</h3>
+        <p class="footer-discrption">We are a fast growing company with a global network of stockists, 
+          distributors and ambassadors. Our manufacturing plants are in central Europe with  
+          headquarters in the UK.</p>
+      </ul>
+      <ul class="d-grid gap-3 col-lg-3 col-sm-6">
+        <h3 class="footer-titel">Global HQ</h3>
+        <li class="footer-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
+        <li class="footer-link"><a href="#">Leeds, </a></li>
+        <li class="footer-link"><a href="#">West Yorks, </a></li>
+        <li class="footer-link"><a href="#">LS12 2PR</a></li>
+        <li class="footer-link"><a href="#">United Kingdom</a></li>
+      </ul>
+      <ul class="d-grid gap-3 col-lg-3 col-sm-6 mt-4 mt-md-0">
+        <h3 class="footer-titel">Site Links</h3>
+        <li class="footer-link"><a href="#">How-To</a></li>
+        <li class="footer-link"><a href="#">FAQ</a></li>
+        <li class="footer-link"><a href="#">      Returns Policy
+  </a></li>
+        <li class="footer-link"><a href="#">      
+  
+  Breakages Policy
+  </a></li>
+        <li class="footer-link"><a href="#">      
+  
+  Payment Policy
+  </a></li>
+        <li class="footer-link"><a href="#">
+  Shipping Policy
+  </a></li>
+        <li class="footer-link"><a href="#">
+  
+  Affiliate Are</a></li>
+        <li class="footer-link"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+        <h3 class="footer-titel mb-3">Social Links</h3>
+        <div class="d-flex flex-wrap flex-md-nowrap align-items-center gap-4 flex-1">
+          <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
+          <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
+          <a target="_blank" href="#"><i class="bi bi-pinterest"></i></i></a>
+          <a target="_blank" href="#"><i class="bi bi-tiktok"></i></i></a>
+          <a target="_blank" href="#"><i class="bi bi-youtube"></i></i></a>
+        </div>
+        <p class="footer-link-last-section" style="margin-top: 3rem;">Unsure how to use WoodUbend?
+          Download our free guide <a href="#" class="text-decoration-underline">here</a>.</p>
+      </div>
+    </div>
+    <div class="w-100 text-center h-25 d-flex justify-content-center align-items-center mt-5">
+      <a href="#" class="footer-bottom-link">© Copyright 2024 – WoodUbend</a>
+    </div>
+  </div>
+</footer>
+<!-- end footer section  -->
+
+
+
+
+
+
+<script type="module" src="./assets/js/script.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
